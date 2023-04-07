@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300 & display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+    font-family: 'roboto', sans-serif;
+    font-size: 15px;
+}
+
+/* Card */
+
+.container h1{
+    text-align: center;
+    
+}
+
+#cabecalhoal #icone {
+    height: 100px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}	
+
+#cabecalhoal {
+	border-bottom: 1px #606060 solid;
+	height: 140px;
+}
+#cabecalhoal h2 {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	color: lightgray;
+	line-height: 0;
+    letter-spacing: 2px;
+}
+
+.projetos{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.card-container {
+    display: flex;
+    align-items: normal;
+    width: 48%;
+    float: left;
+    border: 1px solid white; 
+    border-radius: 5px;
+    margin: 2px 2px 2px 5px;
+}
+
+.card {
+    display: flex;
+    height: 130px;
+    width: 180px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    margin-right: 10px;  
+}
+.card-alm {
+    display: flex;
+    height: 110px;
+    width: 160px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    margin-right: 10px;  
+}
+
+#card1 {
+    background-image: url('toscna.jpg');
+}
+#card2 {
+    background-image: url('galinha.jpg');
+}
+#card3 {
+    background-image: url('assada.jpg');
+}
+#card4 {
+    background-image: url('_MG_0130\ -\ Cópia.JPG');
+}
+#card5 {
+    background-image: url('bife.jpg');
+}
+#card6 {
+    background-image: url('bife.jpg');
+}
+#card7 {
+    background-image: url('_MG_0609.JPG');
+}
+#card8 {
+    background-image: url('baiao2.jfif');
+}
+#card9 {
+    background-image: url('parmegianapeitodefrango.jpg');
+}
+#card10 {
+    background-image: url('polpettine.jfif');
+}
+#card11 {
+    background-image: url('cupim.jpg');
+}
+#card12 {
+    background-image: url('strogonoff.jfif');
+}
+#card13 {
+    background-image: url('_MG_0586.JPG');
+}
+#card14 {
+    background-image: url('_MG_0586.JPG');
+}
+#card15 {
+    background-image: url('peixe.jfif');
+}
+#card16 {
+    background-image: url('peixe.jfif');
+}
+#card17 {
+    background-image: url('cupim.jpg');
+}
+#card18 {
+    background-image: url('cupim.jpg');
+}
+#card19 {
+    background-image: url('dfaddcc5-0c6d-429b-80a3-8cf2e6fb4c85.jpg');
+}
+#card20 {
+    background-image: url('econ.jfif');
+}
+#card21 {
+    background-image: url('economico.jpg');
+}
+#card22 {
+    background-image: url('economico.jpg');
+}
+#card23 {
+    background-image: url('econ.jfif');
+}
+#card24 {
+    background-image: url('_MG_0114.JPG');
+}
+
+.card-text {
+    width: 70%;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color: rgb(193, 193, 196);
+    font-size: 15px;
+}
+.card-text2 {
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.card-text h1 {
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin: 0;
+    color: white;
+}
+.card-text2 h1 {
+    font-size: 23px;
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+.card-text2 h2 {
+    font-size: 21px;
+    text-align: center;
+    margin: 0;
+    color: rgb(91, 91, 243);
+}
+.card-text2 h3 {
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+    color: lightgreen;
+}
+
+.card-text h2 {
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin: 0;
+    color: lightgreen;
+}
+
+/*.card-text p {
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin: 0;
+    color: lightgreen;
+}
+
+Formatção Mostrar item */	
+
+.card-container.mostrar {
+    display: none;
+}
+
+#wifi h1 {
+	font-family: Arial, sans-serif;
+	font-size: 25px;
+	color: lightgreen;
+	line-height: 0.5;
+	
+}
