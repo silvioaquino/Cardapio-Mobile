@@ -2,7 +2,7 @@
 
 :root {
     --font-xl: clamp(0.1rem, 2vw + 0.3rem, 2rem);
-    --font-md: clamp(0.1rem, 2vw + 0.1rem, 2rem);
+    --font-md: clamp(0.1rem, 1.6vw + 0.1rem, 2rem);
 }
 
 
@@ -138,10 +138,10 @@ body {
     background-image: url('../imagens/cupim.jpg');
 }
 #card19 {
-    background-image: url('../imagens/dfaddcc5-0c6d-429b-80a3-8cf2e6fb4c85.jpg');
+    background-image: url('../imagens/economico.jpg');
 }
 #card20 {
-    background-image: url('../imagens/econ.jfif');
+    background-image: url('../imagens/economico.jpg');
 }
 #card21 {
     background-image: url('../imagens/economico.jpg');
@@ -150,7 +150,7 @@ body {
     background-image: url('../imagens/economico.jpg');
 }
 #card23 {
-    background-image: url('../imagens/econ.jfif');
+    background-image: url('../imagens/economico.jpg');
 }
 #card24 {
     background-image: url('../imagens/_MG_0114.JPG');
@@ -201,6 +201,14 @@ body {
     letter-spacing: 1px;
     margin: 0;
     color: lightgreen;
+}
+
+#mDivlfrango h2 {
+    text-align: center;
+}
+
+#mDivlcarne h2 {
+    text-align: center;
 }
 
 /*.card-text p {
@@ -287,7 +295,7 @@ Formatção Mostrar item */
     }
     .card-alm {
         display: flex;
-        height: 110px;
+        height: 133px;
         width: 160px;
         background-position: center;
         background-repeat: no-repeat;
@@ -315,6 +323,15 @@ Formatção Mostrar item */
         color: white;
         height: 30px;
     }
+
+    #mDivpfrango h1 {
+        font-size: 18px;
+    }
+
+    #mDivstrf h1 {
+        font-size: 19px;
+    }
+
     .card-text2 h1 {
         font-size: 23px;
         text-align: center;
@@ -327,6 +344,15 @@ Formatção Mostrar item */
         margin: 0;
         color: rgb(91, 91, 243);
     }
+
+    #mDivlfrango h2 {
+        text-align: center;
+    }
+
+    #mDivlcarne h2 {
+        text-align: center;
+    }
+
     .card-text2 h3 {
         font-size: 16px;
         text-align: center;
@@ -335,7 +361,7 @@ Formatção Mostrar item */
     }
     
     .card-text h2 {
-        font-size: 22px;
+        font-size: 20px;
         letter-spacing: 1px;
         margin: 0;
         color: lightgreen;
@@ -354,11 +380,24 @@ Formatção Mostrar item */
         display: none;
     }
     
-    #wifi h1 {
+    /*#mDivsemp h1 {
         font-family: Arial, sans-serif;
-        font-size: 25px;
+        font-size: 18px;
         color: lightgreen;
         line-height: 0.5;
+        
+    }*/
+    #mDivsemp {
+        display: none;
+        align-items: normal;
+        width: 80%;
+        height: 100px;
+        transform: translate(12% , -50% );
+        top: 50%;
+        left: 50%;  
+        border: 1px solid white; 
+        border-radius: 5px;
+        margin: 2px 2px 2px 5px;
         
     }
 
