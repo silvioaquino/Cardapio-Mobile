@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300 & display=swap');
 
+:root {
+    --font-xl: clamp(0.1rem, 2vw + 0.3rem, 2rem);
+    --font-md: clamp(0.1rem, 2vw + 0.1rem, 2rem);
+}
+
+
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     color: white;
     background-color: black;
     font-family: 'roboto', sans-serif;
@@ -21,18 +28,22 @@ body {
     width: 300px;
     display: block;
     margin: 0 auto;
+    
 }	
 
 #cabecalhoal {
 	border-bottom: 1px #606060 solid;
 	height: 140px;
+    
 }
 #cabecalhoal h2 {
 	font-family: Arial, sans-serif;
-	font-size: 20px;
+	font-size: var(--font-xl);
 	color: lightgray;
 	line-height: 0;
     letter-spacing: 2px;
+    
+    
 }
 
 .projetos{
@@ -212,3 +223,146 @@ Formatção Mostrar item */
 	line-height: 0.5;
 	
 }
+
+@media screen and (max-width: 768px) {
+
+    .container h1{
+        text-align: center;
+        height: 80px;
+        
+    }
+    
+    #cabecalhoal #icone {
+        height: 100px;
+        width: 300px;
+        display: block;
+        margin: 0 auto;
+        
+    }	
+    
+    #cabecalhoal {
+        border-bottom: 1px #606060 solid;
+        height: 140px;
+        
+    }
+    #cabecalhoal h2 {
+        font-family: Arial, sans-serif;
+        font-size: var(--font-md);
+        color: lightgray;
+        line-height: 0;
+        letter-spacing: 2px;
+        
+        
+    }
+    
+    .projetos{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .card-container {
+        display: flex;
+        align-items: normal;
+        width: 80%;
+        transform: translate(12% , -50% );
+        top: 50%;
+        left: 50%;  
+        border: 1px solid white; 
+        border-radius: 5px;
+        margin: 2px 2px 2px 5px;
+        
+    }
+    
+    .card {
+        display: flex;
+        height: 130px;
+        width: 180px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 5px;
+        margin-right: 10px;  
+    }
+    .card-alm {
+        display: flex;
+        height: 110px;
+        width: 160px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 5px;
+        margin-right: 10px;  
+    }
+
+    .card-text {
+        width: 70%;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+        color: rgb(193, 193, 196);
+        font-size: 15px;
+    }
+    .card-text2 {
+        width: 100%;
+        font-family: sans-serif;
+    }
+    
+    .card-text h1 {
+        font-size: 22px;
+        letter-spacing: 1px;
+        margin: 0;
+        color: white;
+        height: 30px;
+    }
+    .card-text2 h1 {
+        font-size: 23px;
+        text-align: center;
+        margin: 0;
+        color: white;
+    }
+    .card-text2 h2 {
+        font-size: 21px;
+        text-align: center;
+        margin: 0;
+        color: rgb(91, 91, 243);
+    }
+    .card-text2 h3 {
+        font-size: 16px;
+        text-align: center;
+        margin: 0;
+        color: lightgreen;
+    }
+    
+    .card-text h2 {
+        font-size: 22px;
+        letter-spacing: 1px;
+        margin: 0;
+        color: lightgreen;
+    }
+    
+    /*.card-text p {
+        font-size: 10px;
+        letter-spacing: 1px;
+        margin: 0;
+        color: lightgreen;
+    }
+    
+    Formatção Mostrar item */	
+    
+    .card-container.mostrar {
+        display: none;
+    }
+    
+    #wifi h1 {
+        font-family: Arial, sans-serif;
+        font-size: 25px;
+        color: lightgreen;
+        line-height: 0.5;
+        
+    }
+
+
+
+
+} 
